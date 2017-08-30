@@ -10,6 +10,9 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+1. A tool that help you find ambiguous constraint automatically,just install it(only in debug mode will be much safer),no extra configration needed;
+2. Once some ambiguous constraints discoverd,a flashing button will appeared on top of the screen.Click it will log all infomation to console which will be great help for identify the problem,meanwhile the condemned view will be marked with red border.
+3. Only the view hierarchy being diplayed will be checked.
 
 ## Installation
 
@@ -22,7 +25,7 @@ pod "ConstraintChecker"
 
 ## Author
 
-willice9527, jinlin.liu@ele.me
+willice9527, nwpu_liuzhou@163.com
 
 ## License
 
