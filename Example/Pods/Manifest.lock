@@ -1,5 +1,5 @@
 PODS:
-  - ConstraintChecker (0.1.0)
+  - ConstraintChecker (0.1.1)
 
 DEPENDENCIES:
   - ConstraintChecker (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ConstraintChecker: cd501df75b22af0046e82800437ecd3f4766c9d2
+  ConstraintChecker: 0ebb9c0b64f38924836b402927c520dc368de2df
 
 PODFILE CHECKSUM: eb35b23e497491a0296fdd25ba05b07f6d0286bc
 
