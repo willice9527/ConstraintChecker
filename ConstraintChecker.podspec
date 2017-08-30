@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ConstraintChecker'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'ambiguous constraint debugger'
 
   s.description      = <<-DESC
