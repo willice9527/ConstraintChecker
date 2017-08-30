@@ -1,0 +1,22 @@
+{
+  "name": "ConstraintChecker",
+  "version": "0.1.0",
+  "summary": "A short description of ConstraintChecker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/willice9527/ConstraintChecker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "willice9527": "jinlin.liu@ele.me"
+  },
+  "source": {
+    "git": "https://github.com/willice9527/ConstraintChecker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ConstraintChecker/Classes/**/*"
+}

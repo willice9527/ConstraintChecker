@@ -1,0 +1,6 @@
+framework module ConstraintChecker {
+  umbrella header "ConstraintChecker-umbrella.h"
+
+  export *
+  module * { export * }
+}
