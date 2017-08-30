@@ -8,11 +8,25 @@
 
 #import "BBCConstraintsCheck.h"
 #import <objc/runtime.h>
+#import <UIView+BBCHashKey.h>
+#import <BBCCResult.h>
+#import <BBCLogComponent.h>
 
 static void(ConstraintCheckCallback)(CFRunLoopObserverRef observer, CFRunLoopActivity activity, void *info);
 static NSMutableDictionary <NSString *,BBCCResult *>*BBCErrorContainer = nil;
 static UIButton *BBCErrorIndicator = nil;
 static NSMutableArray <BBCCResult *>*BBCDisplayedErrorViews = nil;
+
+static inline BOOL BBCIsBlankString(NSString *oriString) {
+  if (!oriString ||
+      ![oriString isKindOfClass:[NSString class]] ||
+      oriString.length <= 0 ||
+      [oriString isEqualToString:@""]) {
+    return YES;
+  }
+  NSCharacterSet *whiteCharSet = [NSCharacterSet whitespaceAndNewlineCharacterSet];
+  return [[oriString stringByTrimmingCharactersInSet:whiteCharSet] isEqualToString:@""];
+}
 
 @implementation BBCConstraintsCheck
 
@@ -106,7 +120,7 @@ static NSMutableArray <BBCCResult *>*BBCDisplayedErrorViews = nil;
 + (void)showIndicator {
   if (!BBCErrorIndicator) {
     BBCErrorIndicator = [UIButton buttonWithType:UIButtonTypeCustom];
-    BBCErrorIndicator.size = CGSizeMake(30, 30);
+    BBCErrorIndicator.frame = CGRectMake(0, 0, 30, 30);
     [BBCErrorIndicator setBackgroundImage:[UIImage imageNamed:@"constraint_warning"] forState:UIControlStateNormal];
     [BBCErrorIndicator addTarget:self action:@selector(errorDetailCheckLog) forControlEvents:UIControlEventTouchUpInside];
     
@@ -152,7 +166,7 @@ static NSMutableArray <BBCCResult *>*BBCDisplayedErrorViews = nil;
 + (NSString *)filteredLog:(NSString *)oriLog {
   __block BBCLogComponent *rootComponent = nil;
   [oriLog enumerateSubstringsInRange:NSMakeRange(0, oriLog.length) options:NSStringEnumerationByLines usingBlock:^(NSString * _Nullable substring, NSRange substringRange, NSRange enclosingRange, BOOL * _Nonnull stop) {
-    if (![NSString nvm_isBlank:substring]) {
+    if (!BBCIsBlankString(substring)) {
       if (!rootComponent) {
         rootComponent = [[BBCLogComponent alloc] initWithStringContent:substring];
       } else {

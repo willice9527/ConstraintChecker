@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "BBCConstraintsCheck.h"
+#import "BBCCResult.h"
+#import "BBCLogComponent.h"
+#import "UIView+BBCHashKey.h"
 
 FOUNDATION_EXPORT double ConstraintCheckerVersionNumber;
 FOUNDATION_EXPORT const unsigned char ConstraintCheckerVersionString[];
