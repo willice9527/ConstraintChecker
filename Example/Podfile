@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ConstraintChecker_Example' do
+  pod 'ConstraintChecker', :path => '../'
+
+  target 'ConstraintChecker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
