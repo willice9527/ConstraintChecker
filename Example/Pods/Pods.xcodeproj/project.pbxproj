@@ -10,7 +10,6 @@
 		16572211A046EBB090023124325CD7F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		1C2E6FCE478F5F060BA2F362D83C7B2B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		2692F3F18A66AD4B80F8642FEAF735A4 /* ConstraintChecker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976B1B568E517CAD4EBA6BEDC0DC50F /* ConstraintChecker-dummy.m */; };
-		2E7D43291F56C41900B76132 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E7D431D1F56C41900B76132 /* Media.xcassets */; };
 		2E7D432B1F56C41900B76132 /* BBCConstraintsCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E7D43201F56C41900B76132 /* BBCConstraintsCheck.h */; };
 		2E7D432C1F56C41900B76132 /* BBCConstraintsCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7D43211F56C41900B76132 /* BBCConstraintsCheck.m */; };
 		2E7D432D1F56C41900B76132 /* BBCCResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E7D43221F56C41900B76132 /* BBCCResult.h */; };
@@ -51,7 +50,6 @@
 		12530BFB0A47E08C25B66270C777F93D /* ConstraintChecker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ConstraintChecker.xcconfig; sourceTree = "<group>"; };
 		17561AA01F32871E614A1866138C3A0B /* Pods-ConstraintChecker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ConstraintChecker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		27DC04B927C621A46B4C92DFD6CC68DC /* ResourceBundle-ConstraintChecker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ConstraintChecker-Info.plist"; sourceTree = "<group>"; };
-		2E7D431D1F56C41900B76132 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		2E7D43201F56C41900B76132 /* BBCConstraintsCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCConstraintsCheck.h; sourceTree = "<group>"; };
 		2E7D43211F56C41900B76132 /* BBCConstraintsCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCConstraintsCheck.m; sourceTree = "<group>"; };
 		2E7D43221F56C41900B76132 /* BBCCResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCCResult.h; sourceTree = "<group>"; };
@@ -156,18 +154,9 @@
 		2E7D431A1F56C41900B76132 /* ConstraintChecker */ = {
 			isa = PBXGroup;
 			children = (
-				2E7D431B1F56C41900B76132 /* Assets */,
 				2E7D431E1F56C41900B76132 /* Classes */,
 			);
 			path = ConstraintChecker;
-			sourceTree = "<group>";
-		};
-		2E7D431B1F56C41900B76132 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				2E7D431D1F56C41900B76132 /* Media.xcassets */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		2E7D431E1F56C41900B76132 /* Classes */ = {
@@ -417,7 +406,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F6214CD33B42EE90A7D8DE4E1B5162C /* ConstraintChecker.bundle in Resources */,
-				2E7D43291F56C41900B76132 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

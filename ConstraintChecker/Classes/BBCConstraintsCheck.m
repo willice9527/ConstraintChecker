@@ -12,6 +12,12 @@
 #import <BBCCResult.h>
 #import <BBCLogComponent.h>
 
+@interface BBCConstraintsCheck ()
+
++ (void)checkConstaints;
+
+@end
+
 static void(ConstraintCheckCallback)(CFRunLoopObserverRef observer, CFRunLoopActivity activity, void *info);
 static NSMutableDictionary <NSString *,BBCCResult *>*BBCErrorContainer = nil;
 static UIButton *BBCErrorIndicator = nil;
@@ -184,6 +190,8 @@ static inline BOOL BBCIsBlankString(NSString *oriString) {
 
 #endif
 
+@end
+
 static void(ConstraintCheckCallback)(CFRunLoopObserverRef observer, CFRunLoopActivity activity, void *info) {
   NSCAssert([NSThread isMainThread], @"should on main thread");
   if (![NSThread isMainThread]) {
@@ -191,5 +199,3 @@ static void(ConstraintCheckCallback)(CFRunLoopObserverRef observer, CFRunLoopAct
   }
   [BBCConstraintsCheck checkConstaints];
 };
-
-@end
