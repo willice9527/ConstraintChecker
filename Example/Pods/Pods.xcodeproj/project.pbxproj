@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EA517EC1F56763A00B75CB3 /* UIView+BBCHashKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA517EA1F56763A00B75CB3 /* UIView+BBCHashKey.h */; };
+		2EA517ED1F56763A00B75CB3 /* UIView+BBCHashKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA517EB1F56763A00B75CB3 /* UIView+BBCHashKey.m */; };
+		2EA517F01F56766F00B75CB3 /* BBCCResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA517EE1F56766F00B75CB3 /* BBCCResult.h */; };
+		2EA517F11F56766F00B75CB3 /* BBCCResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA517EF1F56766F00B75CB3 /* BBCCResult.m */; };
+		2EA517F41F5676B200B75CB3 /* BBCLogComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA517F21F5676B200B75CB3 /* BBCLogComponent.h */; };
+		2EA517F51F5676B200B75CB3 /* BBCLogComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA517F31F5676B200B75CB3 /* BBCLogComponent.m */; };
+		2EA517F81F5676EB00B75CB3 /* BBCConstraintsCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA517F61F5676EB00B75CB3 /* BBCConstraintsCheck.h */; };
+		2EA517F91F5676EB00B75CB3 /* BBCConstraintsCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA517F71F5676EB00B75CB3 /* BBCConstraintsCheck.m */; };
 		3EF6AA37D650A48FB35278B3CA0682FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4B9ECEA94AD1742846B5FE26FD62A4B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		5D673154E78B9B78A4489CDE85ACA103 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -32,6 +40,15 @@
 		099F1ADA07DE3F9E792CE1E0FCF2A092 /* ConstraintChecker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ConstraintChecker.modulemap; sourceTree = "<group>"; };
 		0D84BFD0DE150D91BAB450491A0ABBBE /* Pods-ConstraintChecker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConstraintChecker_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		17561AA01F32871E614A1866138C3A0B /* Pods-ConstraintChecker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ConstraintChecker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2EA517E91F5674E000B75CB3 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		2EA517EA1F56763A00B75CB3 /* UIView+BBCHashKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BBCHashKey.h"; sourceTree = "<group>"; };
+		2EA517EB1F56763A00B75CB3 /* UIView+BBCHashKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BBCHashKey.m"; sourceTree = "<group>"; };
+		2EA517EE1F56766F00B75CB3 /* BBCCResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCCResult.h; sourceTree = "<group>"; };
+		2EA517EF1F56766F00B75CB3 /* BBCCResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCCResult.m; sourceTree = "<group>"; };
+		2EA517F21F5676B200B75CB3 /* BBCLogComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCLogComponent.h; sourceTree = "<group>"; };
+		2EA517F31F5676B200B75CB3 /* BBCLogComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCLogComponent.m; sourceTree = "<group>"; };
+		2EA517F61F5676EB00B75CB3 /* BBCConstraintsCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCConstraintsCheck.h; sourceTree = "<group>"; };
+		2EA517F71F5676EB00B75CB3 /* BBCConstraintsCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCConstraintsCheck.m; sourceTree = "<group>"; };
 		4016C9A7C29E31A8F4DC191E3552CE0E /* Pods-ConstraintChecker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConstraintChecker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5026F643FA6E4D07A3423B216BF3B5A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57DA32A2D12D64084391571A2E65B27A /* Pods_ConstraintChecker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConstraintChecker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +137,7 @@
 		2EA517E51F56747300B75CB3 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				2EA517E91F5674E000B75CB3 /* Media.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -127,6 +145,14 @@
 		2EA517E71F56747300B75CB3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2EA517EA1F56763A00B75CB3 /* UIView+BBCHashKey.h */,
+				2EA517EB1F56763A00B75CB3 /* UIView+BBCHashKey.m */,
+				2EA517EE1F56766F00B75CB3 /* BBCCResult.h */,
+				2EA517EF1F56766F00B75CB3 /* BBCCResult.m */,
+				2EA517F21F5676B200B75CB3 /* BBCLogComponent.h */,
+				2EA517F31F5676B200B75CB3 /* BBCLogComponent.m */,
+				2EA517F61F5676EB00B75CB3 /* BBCConstraintsCheck.h */,
+				2EA517F71F5676EB00B75CB3 /* BBCConstraintsCheck.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -235,6 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B014D69C45E652EFF9B5E85158C7934F /* ConstraintChecker-umbrella.h in Headers */,
+				2EA517F01F56766F00B75CB3 /* BBCCResult.h in Headers */,
+				2EA517F81F5676EB00B75CB3 /* BBCConstraintsCheck.h in Headers */,
+				2EA517EC1F56763A00B75CB3 /* UIView+BBCHashKey.h in Headers */,
+				2EA517F41F5676B200B75CB3 /* BBCLogComponent.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,7 +372,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EA517F51F5676B200B75CB3 /* BBCLogComponent.m in Sources */,
+				2EA517ED1F56763A00B75CB3 /* UIView+BBCHashKey.m in Sources */,
+				2EA517F91F5676EB00B75CB3 /* BBCConstraintsCheck.m in Sources */,
 				946855353C96D1EBAA1DDEE04B5691DB /* ConstraintChecker-dummy.m in Sources */,
+				2EA517F11F56766F00B75CB3 /* BBCCResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
