@@ -7,19 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0493CA65CC4530E62270CD1190816814 /* BBCLogComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F79574D6E0532B068DF54A636E956A /* BBCLogComponent.m */; };
-		11C6C5760907D8A3C8BC2AEAB7262B32 /* BBCCResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E8FC64E0264D25133EA30197D143D3 /* BBCCResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		133F0E88D7F49B25F38D7898296E8FFF /* BBCConstraintsCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E9D0B4C51D1A6B9BC76C49B0F76E93 /* BBCConstraintsCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		140D9CEC81E700DC92B7F85FB5B4DACD /* BBCLogComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A0130FD7CFE4FE1626F204E2E8A435C /* BBCLogComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		141178AE81FCE770EF10CFBBAD317440 /* UIView+BBCHashKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 364E0100CC43554F25E216777EA70114 /* UIView+BBCHashKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		16572211A046EBB090023124325CD7F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		1C2E6FCE478F5F060BA2F362D83C7B2B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		2692F3F18A66AD4B80F8642FEAF735A4 /* ConstraintChecker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7976B1B568E517CAD4EBA6BEDC0DC50F /* ConstraintChecker-dummy.m */; };
-		447A263B2AB053D0324F4DD460DDA0FB /* BBCCResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B28A58F7F72897574C95852865DED82 /* BBCCResult.m */; };
+		2E7D43291F56C41900B76132 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E7D431D1F56C41900B76132 /* Media.xcassets */; };
+		2E7D432B1F56C41900B76132 /* BBCConstraintsCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E7D43201F56C41900B76132 /* BBCConstraintsCheck.h */; };
+		2E7D432C1F56C41900B76132 /* BBCConstraintsCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7D43211F56C41900B76132 /* BBCConstraintsCheck.m */; };
+		2E7D432D1F56C41900B76132 /* BBCCResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E7D43221F56C41900B76132 /* BBCCResult.h */; };
+		2E7D432E1F56C41900B76132 /* BBCCResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7D43231F56C41900B76132 /* BBCCResult.m */; };
+		2E7D432F1F56C41900B76132 /* BBCLogComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E7D43241F56C41900B76132 /* BBCLogComponent.h */; };
+		2E7D43301F56C41900B76132 /* BBCLogComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7D43251F56C41900B76132 /* BBCLogComponent.m */; };
+		2E7D43311F56C41900B76132 /* UIView+BBCHashKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E7D43261F56C41900B76132 /* UIView+BBCHashKey.h */; };
+		2E7D43321F56C41900B76132 /* UIView+BBCHashKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7D43271F56C41900B76132 /* UIView+BBCHashKey.m */; };
 		4B9ECEA94AD1742846B5FE26FD62A4B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		5926D95B45050F5A81748B2785A27B24 /* BBCConstraintsCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F361D21A0BDEE1337635DE415B8B483 /* BBCConstraintsCheck.m */; };
 		5D673154E78B9B78A4489CDE85ACA103 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		74140754AAC8942E3C660FC3BAA05194 /* UIView+BBCHashKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 950DA9902F21B90A4DD131A00EE51CCD /* UIView+BBCHashKey.m */; };
 		7F6214CD33B42EE90A7D8DE4E1B5162C /* ConstraintChecker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B260C72DB787E7C316837B23B3152950 /* ConstraintChecker.bundle */; };
 		9A85EC6909C8EE8E3940726DCA60060B /* ConstraintChecker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73491760FC8F49C75E37387DCB5FE3B3 /* ConstraintChecker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2AE6FDA3B111A17B56F714B7E985338 /* Pods-ConstraintChecker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD9B7475C8BB95B93AF4AEA6F727B4F2 /* Pods-ConstraintChecker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -50,43 +51,44 @@
 		12530BFB0A47E08C25B66270C777F93D /* ConstraintChecker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ConstraintChecker.xcconfig; sourceTree = "<group>"; };
 		17561AA01F32871E614A1866138C3A0B /* Pods-ConstraintChecker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ConstraintChecker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		27DC04B927C621A46B4C92DFD6CC68DC /* ResourceBundle-ConstraintChecker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ConstraintChecker-Info.plist"; sourceTree = "<group>"; };
-		34E8FC64E0264D25133EA30197D143D3 /* BBCCResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BBCCResult.h; path = ConstraintChecker/Classes/BBCCResult.h; sourceTree = "<group>"; };
-		364E0100CC43554F25E216777EA70114 /* UIView+BBCHashKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+BBCHashKey.h"; path = "ConstraintChecker/Classes/UIView+BBCHashKey.h"; sourceTree = "<group>"; };
-		37F406C48272B8542D29C7D00E7D4779 /* ConstraintChecker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ConstraintChecker.framework; path = ConstraintChecker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E7D431D1F56C41900B76132 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		2E7D43201F56C41900B76132 /* BBCConstraintsCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCConstraintsCheck.h; sourceTree = "<group>"; };
+		2E7D43211F56C41900B76132 /* BBCConstraintsCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCConstraintsCheck.m; sourceTree = "<group>"; };
+		2E7D43221F56C41900B76132 /* BBCCResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCCResult.h; sourceTree = "<group>"; };
+		2E7D43231F56C41900B76132 /* BBCCResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCCResult.m; sourceTree = "<group>"; };
+		2E7D43241F56C41900B76132 /* BBCLogComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCLogComponent.h; sourceTree = "<group>"; };
+		2E7D43251F56C41900B76132 /* BBCLogComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCLogComponent.m; sourceTree = "<group>"; };
+		2E7D43261F56C41900B76132 /* UIView+BBCHashKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BBCHashKey.h"; sourceTree = "<group>"; };
+		2E7D43271F56C41900B76132 /* UIView+BBCHashKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BBCHashKey.m"; sourceTree = "<group>"; };
+		37F406C48272B8542D29C7D00E7D4779 /* ConstraintChecker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConstraintChecker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4016C9A7C29E31A8F4DC191E3552CE0E /* Pods-ConstraintChecker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConstraintChecker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		44F79574D6E0532B068DF54A636E956A /* BBCLogComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BBCLogComponent.m; path = ConstraintChecker/Classes/BBCLogComponent.m; sourceTree = "<group>"; };
-		5A0130FD7CFE4FE1626F204E2E8A435C /* BBCLogComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BBCLogComponent.h; path = ConstraintChecker/Classes/BBCLogComponent.h; sourceTree = "<group>"; };
-		6B28A58F7F72897574C95852865DED82 /* BBCCResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BBCCResult.m; path = ConstraintChecker/Classes/BBCCResult.m; sourceTree = "<group>"; };
 		6B79CD454A7F89DD747075F424267A34 /* Pods-ConstraintChecker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConstraintChecker_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6C23BFCF087C73F95863840A86384039 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E8533563515951A2B9443E81056EB17 /* Pods-ConstraintChecker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConstraintChecker_Example-resources.sh"; sourceTree = "<group>"; };
 		73491760FC8F49C75E37387DCB5FE3B3 /* ConstraintChecker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConstraintChecker-umbrella.h"; sourceTree = "<group>"; };
 		7976B1B568E517CAD4EBA6BEDC0DC50F /* ConstraintChecker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ConstraintChecker-dummy.m"; sourceTree = "<group>"; };
-		83E9D0B4C51D1A6B9BC76C49B0F76E93 /* BBCConstraintsCheck.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BBCConstraintsCheck.h; path = ConstraintChecker/Classes/BBCConstraintsCheck.h; sourceTree = "<group>"; };
 		84E3DC57B8B086989EF9242854548EEC /* Pods-ConstraintChecker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConstraintChecker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		911196DCA554894BC4571D56690C616D /* Pods-ConstraintChecker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConstraintChecker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		915C9922D80CCCE87DF96771119BA5C6 /* Pods-ConstraintChecker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ConstraintChecker_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		950DA9902F21B90A4DD131A00EE51CCD /* UIView+BBCHashKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+BBCHashKey.m"; path = "ConstraintChecker/Classes/UIView+BBCHashKey.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95EEAE29BF98CE91670E441C0A9E6F5C /* Pods-ConstraintChecker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ConstraintChecker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9780763B6784EFA1BE5C7CE81E3B59CC /* Pods-ConstraintChecker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ConstraintChecker_Tests-dummy.m"; sourceTree = "<group>"; };
 		981FBD9B9436269ECC0F937151A63EF0 /* Pods-ConstraintChecker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ConstraintChecker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9F361D21A0BDEE1337635DE415B8B483 /* BBCConstraintsCheck.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BBCConstraintsCheck.m; path = ConstraintChecker/Classes/BBCConstraintsCheck.m; sourceTree = "<group>"; };
 		A763853C8A74F60399F7135C492B5D5B /* ConstraintChecker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConstraintChecker-prefix.pch"; sourceTree = "<group>"; };
 		AC320CF41A9D2101CAF1A50D320DDBCF /* Pods-ConstraintChecker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConstraintChecker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ACEA9A5B2CA3DD5C6710320B16A02A34 /* Pods-ConstraintChecker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConstraintChecker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B260C72DB787E7C316837B23B3152950 /* ConstraintChecker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ConstraintChecker.bundle; path = ConstraintChecker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B260C72DB787E7C316837B23B3152950 /* ConstraintChecker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConstraintChecker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C0D28E51840A30D22AF1146055239AE5 /* ConstraintChecker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ConstraintChecker.modulemap; sourceTree = "<group>"; };
+		C0D28E51840A30D22AF1146055239AE5 /* ConstraintChecker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ConstraintChecker.modulemap; sourceTree = "<group>"; };
 		CA1D9044A7E795647A86144E93546C1B /* Pods-ConstraintChecker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConstraintChecker_Tests-resources.sh"; sourceTree = "<group>"; };
-		D4D483D31525AE7185DFCDA49017276D /* Pods-ConstraintChecker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ConstraintChecker_Example.modulemap"; sourceTree = "<group>"; };
-		D62E85749AD61A55A9CEC95CEE3CCD1D /* Pods_ConstraintChecker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ConstraintChecker_Tests.framework; path = "Pods-ConstraintChecker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D483D31525AE7185DFCDA49017276D /* Pods-ConstraintChecker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ConstraintChecker_Example.modulemap"; sourceTree = "<group>"; };
+		D62E85749AD61A55A9CEC95CEE3CCD1D /* Pods_ConstraintChecker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConstraintChecker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E0048860B10E8992220CB87E62298E06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1B2FF4D8E3B050A7668FE4758027FE3 /* Pods-ConstraintChecker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConstraintChecker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F2329837E2AE4B9CDE56596DE8FBE33F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5769AE196867C1B1CF97DA9F2AF9197 /* Pods_ConstraintChecker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ConstraintChecker_Example.framework; path = "Pods-ConstraintChecker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7CB8C0402CD5AE60CCE01FCCBA9D5EE /* Pods-ConstraintChecker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ConstraintChecker_Tests.modulemap"; sourceTree = "<group>"; };
+		F5769AE196867C1B1CF97DA9F2AF9197 /* Pods_ConstraintChecker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConstraintChecker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7CB8C0402CD5AE60CCE01FCCBA9D5EE /* Pods-ConstraintChecker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ConstraintChecker_Tests.modulemap"; sourceTree = "<group>"; };
 		FD9B7475C8BB95B93AF4AEA6F727B4F2 /* Pods-ConstraintChecker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ConstraintChecker_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,18 +146,43 @@
 		1A95C8D543D32856B399F545678E6739 /* ConstraintChecker */ = {
 			isa = PBXGroup;
 			children = (
-				83E9D0B4C51D1A6B9BC76C49B0F76E93 /* BBCConstraintsCheck.h */,
-				9F361D21A0BDEE1337635DE415B8B483 /* BBCConstraintsCheck.m */,
-				34E8FC64E0264D25133EA30197D143D3 /* BBCCResult.h */,
-				6B28A58F7F72897574C95852865DED82 /* BBCCResult.m */,
-				5A0130FD7CFE4FE1626F204E2E8A435C /* BBCLogComponent.h */,
-				44F79574D6E0532B068DF54A636E956A /* BBCLogComponent.m */,
-				364E0100CC43554F25E216777EA70114 /* UIView+BBCHashKey.h */,
-				950DA9902F21B90A4DD131A00EE51CCD /* UIView+BBCHashKey.m */,
+				2E7D431A1F56C41900B76132 /* ConstraintChecker */,
 				0074FFBDC54B86C5445E18FDB1365AD7 /* Support Files */,
 			);
 			name = ConstraintChecker;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		2E7D431A1F56C41900B76132 /* ConstraintChecker */ = {
+			isa = PBXGroup;
+			children = (
+				2E7D431B1F56C41900B76132 /* Assets */,
+				2E7D431E1F56C41900B76132 /* Classes */,
+			);
+			path = ConstraintChecker;
+			sourceTree = "<group>";
+		};
+		2E7D431B1F56C41900B76132 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2E7D431D1F56C41900B76132 /* Media.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2E7D431E1F56C41900B76132 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2E7D43201F56C41900B76132 /* BBCConstraintsCheck.h */,
+				2E7D43211F56C41900B76132 /* BBCConstraintsCheck.m */,
+				2E7D43221F56C41900B76132 /* BBCCResult.h */,
+				2E7D43231F56C41900B76132 /* BBCCResult.m */,
+				2E7D43241F56C41900B76132 /* BBCLogComponent.h */,
+				2E7D43251F56C41900B76132 /* BBCLogComponent.m */,
+				2E7D43261F56C41900B76132 /* UIView+BBCHashKey.h */,
+				2E7D43271F56C41900B76132 /* UIView+BBCHashKey.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		3149997BC686C16ACA44A83787C2027D /* Pods-ConstraintChecker_Tests */ = {
@@ -273,11 +300,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				133F0E88D7F49B25F38D7898296E8FFF /* BBCConstraintsCheck.h in Headers */,
-				11C6C5760907D8A3C8BC2AEAB7262B32 /* BBCCResult.h in Headers */,
-				140D9CEC81E700DC92B7F85FB5B4DACD /* BBCLogComponent.h in Headers */,
+				2E7D432B1F56C41900B76132 /* BBCConstraintsCheck.h in Headers */,
+				2E7D432D1F56C41900B76132 /* BBCCResult.h in Headers */,
 				9A85EC6909C8EE8E3940726DCA60060B /* ConstraintChecker-umbrella.h in Headers */,
-				141178AE81FCE770EF10CFBBAD317440 /* UIView+BBCHashKey.h in Headers */,
+				2E7D43311F56C41900B76132 /* UIView+BBCHashKey.h in Headers */,
+				2E7D432F1F56C41900B76132 /* BBCLogComponent.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +417,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F6214CD33B42EE90A7D8DE4E1B5162C /* ConstraintChecker.bundle in Resources */,
+				2E7D43291F56C41900B76132 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,11 +450,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5926D95B45050F5A81748B2785A27B24 /* BBCConstraintsCheck.m in Sources */,
-				447A263B2AB053D0324F4DD460DDA0FB /* BBCCResult.m in Sources */,
-				0493CA65CC4530E62270CD1190816814 /* BBCLogComponent.m in Sources */,
+				2E7D43301F56C41900B76132 /* BBCLogComponent.m in Sources */,
 				2692F3F18A66AD4B80F8642FEAF735A4 /* ConstraintChecker-dummy.m in Sources */,
-				74140754AAC8942E3C660FC3BAA05194 /* UIView+BBCHashKey.m in Sources */,
+				2E7D432C1F56C41900B76132 /* BBCConstraintsCheck.m in Sources */,
+				2E7D43321F56C41900B76132 /* UIView+BBCHashKey.m in Sources */,
+				2E7D432E1F56C41900B76132 /* BBCCResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
