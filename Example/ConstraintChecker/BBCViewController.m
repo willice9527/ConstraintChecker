@@ -14,16 +14,33 @@
 
 @implementation BBCViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad {
+  [super viewDidLoad];
+  [self addDemoUI];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)addDemoUI {
+  UILabel *label = [UILabel new];
+  label.textColor = [UIColor blueColor];
+  label.font = [UIFont systemFontOfSize:14];
+  label.text = @"label";
+  label.backgroundColor = [UIColor yellowColor];
+  label.translatesAutoresizingMaskIntoConstraints = NO;
+  
+  UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+  btn.backgroundColor = [UIColor yellowColor];
+  [btn setTitle:@"button" forState:UIControlStateNormal];
+  btn.titleLabel.font = [UIFont systemFontOfSize:14];
+  [btn setTitleColor:[UIColor brownColor] forState:UIControlStateNormal];
+  btn.translatesAutoresizingMaskIntoConstraints = NO;
+  
+  UIStackView *stack = [[UIStackView alloc] initWithArrangedSubviews:@[label, btn]];
+  stack.translatesAutoresizingMaskIntoConstraints = NO;
+  stack.axis = UILayoutConstraintAxisHorizontal;
+  stack.distribution = UIStackViewDistributionEqualSpacing;
+  stack.alignment = UIStackViewAlignmentFill;
+  stack.spacing = 10.f;
+  [self.view addSubview:stack];
 }
 
 @end

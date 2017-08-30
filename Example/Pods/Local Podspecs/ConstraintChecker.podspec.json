@@ -18,5 +18,14 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ConstraintChecker/Classes/**/*"
+  "source_files": "ConstraintChecker/Classes/**/*",
+  "resource_bundles": {
+    "ConstraintChecker": [
+      "ConstraintChecker/Assets/*.png"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
 }

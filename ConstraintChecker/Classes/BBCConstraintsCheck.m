@@ -121,16 +121,20 @@ static inline BOOL BBCIsBlankString(NSString *oriString) {
   if (!BBCErrorIndicator) {
     BBCErrorIndicator = [UIButton buttonWithType:UIButtonTypeCustom];
     BBCErrorIndicator.frame = CGRectMake(0, 0, 30, 30);
-    [BBCErrorIndicator setBackgroundImage:[UIImage imageNamed:@"constraint_warning"] forState:UIControlStateNormal];
+    [BBCErrorIndicator setTitle:@"i" forState:UIControlStateNormal];
+    [BBCErrorIndicator setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    BBCErrorIndicator.backgroundColor = [UIColor orangeColor];
+    BBCErrorIndicator.layer.cornerRadius = 15.f;
+    BBCErrorIndicator.clipsToBounds = YES;
     [BBCErrorIndicator addTarget:self action:@selector(errorDetailCheckLog) forControlEvents:UIControlEventTouchUpInside];
     
     CABasicAnimation *scaleAnimation = [CABasicAnimation animationWithKeyPath:@"transform"];
     scaleAnimation.toValue = [NSValue valueWithCATransform3D:CATransform3DMakeScale(1, 1, 1)];
-    scaleAnimation.fromValue = [NSValue valueWithCATransform3D:CATransform3DMakeScale(0.95, 0.95, 0.95)];
+    scaleAnimation.fromValue = [NSValue valueWithCATransform3D:CATransform3DMakeScale(0.85, 0.85, 0.85)];
     
     CABasicAnimation *opacityAnimation = [CABasicAnimation animationWithKeyPath:@"opacity"];
-    opacityAnimation.toValue = @0.95;
-    opacityAnimation.fromValue = @0.65;
+    opacityAnimation.toValue = @1.f;
+    opacityAnimation.fromValue = @0.5;
     
     CAAnimationGroup *group = [CAAnimationGroup animation];
     group.duration = 1.f;

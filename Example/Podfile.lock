@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ConstraintChecker: a3613c0282645dda94141ad10002b4ff00bc9a27
+  ConstraintChecker: cd501df75b22af0046e82800437ecd3f4766c9d2
 
 PODFILE CHECKSUM: eb35b23e497491a0296fdd25ba05b07f6d0286bc
 
