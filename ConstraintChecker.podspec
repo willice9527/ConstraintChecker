@@ -1,41 +1,24 @@
-#
-# Be sure to run `pod lib lint ConstraintChecker.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
+
 
 Pod::Spec.new do |s|
   s.name             = 'ConstraintChecker'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ConstraintChecker.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'ambiguous constraint debugger'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A tool that help you find ambiguous constraint automatically,just install it(only in debug mode will be much safer),no extra configration needed;
+  Once some ambiguous constraints discoverd,a flashing button will appeared on top of the screen.Click it will log all infomation to console which will be great help for identify the problem,meanwhile the condemned view will be marked with red border.
+  Only the view hierarchy being diplayed will be checked.
                        DESC
 
   s.homepage         = 'https://github.com/willice9527/ConstraintChecker'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'willice9527' => 'jinlin.liu@ele.me' }
+  s.author           = { 'willice9527' => 'nwpu_liuzhou@163.com' }
   s.source           = { :git => 'https://github.com/willice9527/ConstraintChecker.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ConstraintChecker/Classes/**/*'
-  
-  s.resource_bundles = {
-    'ConstraintChecker' => ['ConstraintChecker/Assets/*.png']
-  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
 end
