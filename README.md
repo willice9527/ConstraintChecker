@@ -8,6 +8,7 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+![MantleDemo~](https://github.com/willice9527/ConstraintChecker/blob/master/ConstraintChecker.gif)
 
 ## Requirements
 1. A tool that help you find ambiguous constraint automatically,just install it(only in debug mode will be much safer),no extra configration needed;
